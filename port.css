@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Roboto, 'Segoe UI', Tahoma, sans-serif;
+
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(43, 51, 50);
+}
+.main-container{
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid   red; */
+}
+.nav-content{
+    
+    display: flex;
+    align-items:center;
+    align-content: center;
+    justify-content:end;
+    flex-direction: row;
+    border:none  solid   white;
+    gap:50px; 
+    margin-right: 50px;
+
+    
+
+}
+.nav-content    a{
+    color: rgb(230, 221, 221);
+    text-decoration: none;
+    font-weight: 600;
+  
+
+}
+.nav-content    a:hover{
+    color: aqua;
+    transition-duration: 1s;
+}
+#head{
+    color: white;
+    float: left;
+    padding-right: 500px;
+}
+#latest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:Roboto, 'Segoe UI', Tahoma, sans-serif;
+
+}
+#latest::after{
+    content: "Project";
+    color:aqua;
+    font-family:Roboto, 'Segoe UI', Tahoma, sans-serif;
+}
+
+.first-three-image{
+    /* height: 400px; */
+    width: 100%;
+    /* border: 2px solid   white; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+.image-1{
+    height: 250px;
+    width: 330px;
+    border: 0.1px solid   white;
+    border-radius:10px;
+    overflow: hidden;
+    margin-right: 20px; 
+}
+.image-1    img{
+    height: 250px;
+    width: 330px;
+
+    
+}
+#hh{
+    position: absolute;
+    padding-left: 50px;
+    color: white;
+   
+   
+   
+}
+#pp{
+    position: absolute;
+    margin-top: 50px;
+    padding-left: 30px;
+    color: white;
+   
+
+}
+span    i{
+    position: absolute;
+    border: none solid   aqua;
+    height: 40px;
+    width: 40px;
+    margin-top: 170px;
+    margin-left: 150px;
+
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 50%;
+    background-color: white;
+
+
+}
+
+.image-2{
+    height: 250px;
+    width: 350px;
+    border: 0.1px solid   white;
+    border-radius:10px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.image-2    img{
+    height: 250px;
+    width: 330px;
+
+    
+}
+.image-3{
+    height: 250px;
+    width: 330px;
+    border: 0.1px solid   white;
+    border-radius:10px;
+    overflow: hidden;
+    /* margin-right: 20px; */
+}
+.image-3    img{
+    height: 250px;
+    width: 330px;
+
+    
+}

@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Roboto, 'Segoe UI', Tahoma, sans-serif;
+
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(43, 51, 50);
+}
+.container{
+    height: 100%;
+    width: 100%;
+    border: none   red;
+}
+.nav-content{
+    
+    display: flex;
+    align-items:center;
+    align-content: center;
+    justify-content:end;
+    flex-direction: row;
+    border:none  solid   white;
+    gap:50px; 
+    margin-right: 50px;
+
+    
+
+}
+.nav-content    a{
+    color: rgb(230, 221, 221);
+    text-decoration: none;
+    font-weight: 600;
+  
+
+}
+.nav-content    a:hover{
+    color: aqua;
+    transition-duration: 1s;
+}
+#head{
+    color: white;
+    float: left;
+    padding-right: 500px;
+}
+.profile-box{
+    height: 400px;
+    width: 400px;
+    border: none solid   red;
+    margin-right: 30px;
+}
+.about-box{
+    height: 400px;
+    width: 400px;
+    border: none solid   red;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 100px;
+    
+    
+}
+.about-box{
+    color: white;
+}
+.para-box   p{
+    margin-top: 20px;
+}
+.button-box button{
+    height: 40px;
+    width: 100px;
+    color: black;
+    background-color: aqua;
+    box-shadow: 0   0   10px aqua;
+    border: none;
+    border-radius: 7px;
+    margin-top: 30px;
+    
+}
+.button-box button:hover{
+    box-shadow: none;
+}
+#Me::after{
+    content: "Me";
+    color: aqua;
+}
+.Myimage{
+    display: flex;
+    align-items:center;
+    align-content: center;
+    justify-content:center;
+    height: 350px;
+    width: 350px;
+    border: none solid   aqua;
+    
+    border-radius: 50%;
+    box-shadow: 0   0   20px    rgb(250, 11, 198);
+    background-color: rgb(250, 11, 198);
+    
+    
+    
+}
+.Myimage    img{
+   
+    clip-path: circle(50% at 50% 50%);
+    height: 300px;
+    width: 300px;
+    filter: brightness(1.0800);
+    filter: opacity(100);
+    
+    
+    
+}
+.Myimage:hover{
+    transition-duration: 3s;
+    transform: perspective(800px);
+    transform: rotateY(180deg);
+    background-color: aqua;
+    box-shadow: 0   0   20px    aqua;
+
+}

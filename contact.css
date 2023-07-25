@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Roboto, 'Segoe UI', Tahoma, sans-serif;
+
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(43, 51, 50);
+}
+.nav-content{
+    
+    display: flex;
+    align-items:center;
+    align-content: center;
+    justify-content:end;
+    flex-direction: row;
+    border:none  solid   white;
+    gap:50px; 
+    margin-right: 50px;
+
+    
+
+}
+.nav-content    a{
+    color: rgb(230, 221, 221);
+    text-decoration: none;
+    font-weight: 600;
+  
+
+}
+.nav-content    a:hover{
+    color: aqua;
+    transition-duration: 1s;
+}
+#head{
+    color: white;
+    float: left;
+    padding-right: 500px;
+}
+#hed{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hed::after{
+    content: "Me!";
+    color: aqua;
+
+}
+.input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+.first-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:10px;
+}
+.first-box  input{
+    margin-top:10px;
+    margin-right: 10px;
+    height: 50px;
+    width: 330px;
+    border-radius: 5px;
+    background-color: rgb(77, 77, 77);
+   
+    
+
+
+    
+}
+input{
+    border:none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+ 
+}
+.first-box  input::placeholder{
+    padding-left: 10px;
+    color: gray;
+}
+
+.text-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+    
+    
+
+
+
+.text-area  input{
+    width: 675px;
+    height: 240px;
+    background-color: rgb(77, 77, 77);
+
+
+}
+.text-area  input{
+    outline: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+}
+.text-area input::placeholder{
+    padding-left: 10px;
+    color: gray;
+   
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+
+
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-container  button{
+    height: 40px;
+    width: 150px;
+    border: none;
+    background-color: aqua;
+    box-shadow: 0   0   7px aqua;
+    font-weight: 600;
+    border-radius: 15px;
+    
+
+
+
+}
+.button-container  button:hover{
+    box-shadow: none;
+    transition-duration: 1s;
+
+}

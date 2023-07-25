@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Roboto, 'Segoe UI', Tahoma, sans-serif;
+
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(43, 51, 50);
+}
+.main-container{
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid   red; */
+}
+.nav-content{
+    
+    display: flex;
+    align-items:center;
+    align-content: center;
+    justify-content:end;
+    flex-direction: row;
+    border:none  solid   white;
+    gap:50px; 
+    margin-right: 50px;
+
+    
+
+}
+.nav-content    a{
+    color: rgb(230, 221, 221);
+    text-decoration: none;
+    font-weight: 600;
+  
+
+}
+.nav-content    a:hover{
+    color: aqua;
+    transition-duration: 1s;
+}
+#head{
+    color: white;
+    float: left;
+    padding-right: 500px;
+}
+.hel::after{
+    content: "  Services";
+    color: aqua;
+    
+}
+.hel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;  
+
+}
+.web{
+    height: 330px;
+    width: 330px;
+    border: none solid   red;
+    box-shadow: 0   0   3px rgb(46, 46, 46);
+    margin-right: 15px;
+    border-radius: 5px;
+    background-color: rgb(63, 73, 68);
+    
+    
+
+}
+.icon-box    span    i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: 900;
+    color: aqua;
+
+
+}
+.head-div   h1{
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    
+
+}
+.head-div   p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    
+}
+.button-container button{
+    margin-left: 115px;
+    height: 40px;
+    width: 100px;
+    color: black;
+    background-color: aqua;
+    box-shadow: 0   0   10px aqua;
+    border: none;
+    border-radius: 7px;
+    margin-top: 30px;
+   
+    
+}
+.button-container button:hover{
+    box-shadow: none;
+}
+
+
+.design{
+    height: 330px;
+    width: 330px;
+    border: none solid   red;
+    margin-right: 15px;
+    border-radius: 15px;
+    background-color: rgb(63, 73, 68);
+
+}
+.marketing{
+    height: 330px;
+    width: 330px;
+    border: none solid   red;
+    border-radius: 5px;
+    background-color: rgb(63, 73, 68);
+
+}
+.main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 100px;
+}

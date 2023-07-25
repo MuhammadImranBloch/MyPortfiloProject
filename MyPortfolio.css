@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Roboto, 'Segoe UI', Tahoma, sans-serif;
+
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(43, 51, 50);
+}
+.nav-content{
+    
+    display: flex;
+    align-items:center;
+    align-content: center;
+    justify-content:end;
+    flex-direction: row;
+    border:none  solid   white;
+    gap:50px; 
+    margin-right: 50px;
+
+    
+
+}
+.nav-content    a{
+    color: rgb(230, 221, 221);
+    text-decoration: none;
+    font-weight: 600;
+  
+
+}
+.nav-content    a:hover{
+    color: aqua;
+    transition-duration: 1s;
+}
+#head{
+    color: white;
+    float: left;
+    padding-right: 500px;
+}
+.profile-container{
+    color: white;
+    /* border:3px solid    white; */
+    width: 36.5%;
+    height: 350px;
+    margin-top: 150px;
+    margin-left: 50px;
+
+}
+#text-after::after{
+    content: "Frentend Developer";
+    color: aqua;
+}
+.button-container   button{
+    height: 40px;
+    width: 150px;
+    color: black;
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0   0   7px aqua;
+    margin-top: 25px;
+
+}
+.button-container   button:hover{
+    box-shadow: none;
+
+}
+.profile-head   p{
+    margin-top: 5px;
+}
+    
+    
+.icon-container span  i{
+            height: 33px;
+            width: 33px;
+            display: inline-block;
+            flex-direction: row;
+            align-items:center;
+            align-content: center;
+            justify-content:center;
+            border-radius: 50%;
+            box-shadow: 0   0   3px aqua;
+            border: 1px solid   aqua;
+            padding-top: 5.5px;
+            padding-left: 6px;
+            margin-top: 20px;
+            color: aqua;
+}
+.icon-container span  i:hover{
+    transition-duration: 1s;
+    background-color: aqua;
+    color: black;
+}
+.Myimage{
+    display: flex;
+    align-items:center;
+    align-content: center;
+    justify-content:center;
+    
+    float: right;
+    height: 350px;
+    width: 350px;
+    border: none solid   aqua;
+    margin-top: 100px;
+    margin-right: 40px;
+    border-radius: 50%;
+    box-shadow: 0   0   20px    rgb(250, 11, 198);
+    background-color: rgb(250, 11, 198);
+    
+    
+    
+}
+.Myimage    img{
+   
+    clip-path: circle(50% at 50% 50%);
+    height: 300px;
+    width: 300px;
+    filter: brightness(1.0800);
+    filter: opacity(100);
+    
+    
+    
+}
+.Myimage:hover{
+    transition-duration: 3s;
+    transform: perspective(800px);
+    transform: rotateY(180deg);
+    background-color: aqua;
+    box-shadow: 0   0   20px    aqua;
+
+}
